@@ -74,6 +74,6 @@ docker run --rm -it -v path/to/directory:/volume -p 5000:8888 (IMAGENAME)
 
 컨테이너 내부에서 다음 명령어를 실행하여 c 파일 컴파일 후 실행
 ```
-> gcc path/to/filename.c
+> gcc path/to/filename.c -o path/to/filename
 > ./filename
 ```
